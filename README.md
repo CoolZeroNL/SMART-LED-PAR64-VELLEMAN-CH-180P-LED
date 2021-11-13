@@ -28,9 +28,9 @@
 https://github.com/robertoostenveld/arduino/tree/master/esp8266_artnet_dmx512
 - connect 5V and GND from the power supply to Vcc and GND of the MAX485 module
 - connect 5V and GND from the power supply to the 5V and GND of the Wemos D1 mini
-- connect pin DE (data enable) of the MAX485 module to 3.3V (using 3.3V TTL)
-- connect pin RE (receive enable) of the MAX485 module to GND
-- connect pin D4/TX1 of the Wemos D1 mini to the DI (data in) pin of the MAX485 module (using 3.3V TTL)
+- connect pin RE (receive enable) of the MAX485 module to pin DE (data enable) of the MAX485 module
+- connect pin RE (receive enable) of the MAX485 module to pin VCC of the MAX485 module
+- connect pin D4/TX1 of the Wemos D1 mini to the DI (data in) pin of the MAX485 module
 - connect pin A of the MAX485 module to XLR 3
 - connect pin B of the MAX485 module to XLR 2
 - connect GND to XLR 1
